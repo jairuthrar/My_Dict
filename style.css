@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(31, 44, 41);
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.dictionary{
+    border:2px solid rgb(154, 130, 130);
+    background-color: rgb(9, 9, 83);
+    margin: 20px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+    color: white;
+    word-spacing: 5px;
+    line-height: 27px;
+    box-shadow: 1px 1px 1px 1px black;
+    text-shadow: 3px 2px 2px  rgb(9, 8, 8);
+    width: 450px;
+    height: fit-content;
+
+  
+
+
+
+}
+
+.dict_h1{
+   text-transform: capitalize;
+   padding-left: 70px;
+   text-shadow: 2px 2px 2px black;
+}
+
+
+#user_input1{
+    border: none;
+    padding: 10px 20px 7px 20px;
+    outline: 2px solid wheat;
+    border-radius: 7px;
+    margin: 25px ;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    
+}
+#user_input1:hover{
+    background-color: black;
+    color: white;
+}
+
+.clear{
+    
+    border: none;
+    padding: 2px 15px 5px 15px;
+    outline: 2px solid wheat;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.clear:hover{
+    background-color: black;
+    color: white;
+}
+
+.info{
+    color: wheat;
+    font-size: 19px;
+    margin-left: 50px;
+}
+
+.answer{
+  display: none;
+}
+ 
+
+ .word{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    color: rgb(247, 247, 246);
+    text-transform: capitalize;
+    color: wheat;
+    font-size: 19px;
+    letter-spacing: .1rem;
+
+ }
+.means{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    color: rgb(234, 234, 234);
+    text-transform: capitalize;
+    color: wheat;
+    font-size: 19px;
+    letter-spacing: .1rem;
+
+
+}
+
+#means,#word{
+    color: white;
+    padding-left: 20px;
+    letter-spacing: .1rem;
+
+
+ 
+}
+
+#audio{
+    border-radius: 10px;
+    border: none;
+    outline: 2px solid white;
+  margin-left: 20px;
+}
+
